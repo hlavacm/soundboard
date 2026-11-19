@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Soundboard</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎛️</text></svg>">
+<style>
+  :root { --bg: #111; --tile: #262626; --fg: #eee; --sfx-on: #e63946; --loop-on: #2a9d8f; }
+  * { box-sizing: border-box; user-select: none; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.15 system-ui, sans-serif; padding: 0 16px 12px; }
+  header {
+    position: sticky; top: 0; z-index: 1; background: var(--bg);
+    display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: center; padding: 8px 0;
+  }
+  header strong { font-size: 18px; margin-right: auto; }
+  label { display: flex; gap: 8px; align-items: center; }
+  input[type=range] { width: 140px; }
+  /* group = label on the left + grid on the right; saves a heading row so everything fits on one screen */
+  .group { display: grid; grid-template-columns: 84px 1fr; gap: 10px; margin-top: 8px; }
+  /* loops behave differently (one at a time), so a line separates them from the effects */
+  body > .group { border-bottom: 1px solid #555; padding-bottom: 12px; margin-bottom: 4px; }
+  h2 { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; opacity: .6; margin: 0; padding-top: 8px; text-align: right; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 6px; }
+  button {
+    font: inherit; color: inherit; background: var(--tile); border: 0; border-radius: 10px;
+    min-height: clamp(56px, 11vh, 110px); padding: 4px 6px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+    transition: transform .05s, background .15s;
+  }
+  button .e { font-size: clamp(20px, 3.6vh, 36px); line-height: 1; }
+  button:active { transform: scale(.95); }
+  button.on { background: var(--sfx-on); }
+  #loops button.on { background: var(--loop-on); }
+  button:disabled { opacity: .3; }
+  #stopBtn { min-height: 36px; padding: 0 14px; background: #444; }
+</style>
+</head>
+<body>
+<header>
+  <strong>🎛️ Soundboard</strong>
+  <label>🎵 <input type="range" id="loopVol" min="0" max="1" step="0.01" value="0.5" aria-label="Loop volume"></label>
+  <label>💥 <input type="range" id="sfxVol" min="0" max="1" step="0.01" value="1" aria-label="Effects volume"></label>
+  <button id="stopBtn">⏹ STOP effects</button>
+</header>
+<section class="group"><h2>Loops</h2><div class="grid" id="loops"></div></section>
+<main id="main"></main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

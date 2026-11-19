@@ -1,0 +1,66 @@
+{
+  "loops": [
+    { "name": "Arcade", "emoji": "🕹️", "file": "sounds/loops/arcade.wav" },
+    { "name": "Hacker", "emoji": "🧑‍💻", "file": "sounds/loops/dark.wav" },
+    { "name": "Lo-fi chill", "emoji": "☕", "file": "sounds/loops/lofi.wav" },
+    { "name": "Boss fight", "emoji": "👾", "file": "sounds/loops/boss.wav" },
+    { "name": "Synthwave", "emoji": "🌆", "file": "sounds/loops/synthwave.wav" },
+    { "name": "Funk", "emoji": "🕺", "file": "sounds/loops/funk.wav" },
+    { "name": "Quiz", "emoji": "🤔", "file": "sounds/loops/quiz.wav" },
+    { "name": "Techno", "emoji": "🎧", "file": "sounds/loops/techno.wav" },
+    { "name": "Epic", "emoji": "🎬", "file": "sounds/loops/epic.wav" }
+  ],
+  "sfx": [
+    { "group": "Announcer", "name": "Fight!", "emoji": "🥊", "file": "sounds/sfx/fight.mp3" },
+    { "group": "Announcer", "name": "Round one", "emoji": "1️⃣", "file": "sounds/sfx/round1.mp3" },
+    { "group": "Announcer", "name": "Round two", "emoji": "2️⃣", "file": "sounds/sfx/round2.mp3" },
+    { "group": "Announcer", "name": "Round three", "emoji": "3️⃣", "file": "sounds/sfx/round3.mp3" },
+    { "group": "Announcer", "name": "Round four", "emoji": "4️⃣", "file": "sounds/sfx/round4.mp3" },
+    { "group": "Announcer", "name": "Finish him!", "emoji": "💀", "file": "sounds/sfx/finish.mp3" },
+    { "group": "Announcer", "name": "Fatality!", "emoji": "🩸", "file": "sounds/sfx/fatality.mp3" },
+    { "group": "Announcer", "name": "Segfault", "emoji": "☠️", "file": "sounds/sfx/segfault.mp3" },
+    { "group": "Announcer", "name": "Flawless deploy", "emoji": "✨", "file": "sounds/sfx/flawless.mp3" },
+    { "group": "Announcer", "name": "Winner!", "emoji": "🏆", "file": "sounds/sfx/winner.mp3" },
+    { "group": "Announcer", "name": "High score", "emoji": "📈", "file": "sounds/sfx/highscore.mp3" },
+
+    { "group": "Dev life", "name": "Merge conflict", "emoji": "⚔️", "file": "sounds/sfx/merge.mp3" },
+    { "group": "Dev life", "name": "Prod is down", "emoji": "🔥", "file": "sounds/sfx/prod.mp3" },
+    { "group": "Dev life", "name": "Push --force", "emoji": "💣", "file": "sounds/sfx/force.mp3" },
+    { "group": "Dev life", "name": "Kernel panic", "emoji": "😱", "file": "sounds/sfx/kernel.mp3" },
+    { "group": "Dev life", "name": "Legacy code", "emoji": "🦖", "file": "sounds/sfx/legacy.mp3" },
+    { "group": "Dev life", "name": "Friday deploy", "emoji": "📅", "file": "sounds/sfx/friday.mp3" },
+    { "group": "Dev life", "name": "Ship it!", "emoji": "🚢", "file": "sounds/sfx/shipit.mp3" },
+    { "group": "Dev life", "name": "Works on my machine", "emoji": "💻", "file": "sounds/sfx/mymachine.mp3" },
+    { "group": "Dev life", "name": "Off and on again", "emoji": "🔌", "file": "sounds/sfx/offon.mp3" },
+
+    { "group": "Cute", "name": "Yay!", "emoji": "🐿️", "file": "sounds/sfx/yay.mp3" },
+    { "group": "Cute", "name": "Uh oh", "emoji": "🐰", "file": "sounds/sfx/uhoh.mp3" },
+    { "group": "Cute", "name": "Oopsie", "emoji": "🦔", "file": "sounds/sfx/oops.mp3" },
+    { "group": "Cute", "name": "Hugs!", "emoji": "🧸", "file": "sounds/sfx/hugs.mp3" },
+
+    { "group": "Czech", "name": "Coffee break", "emoji": "☕", "file": "sounds/sfx/coffee.mp3" },
+    { "group": "Czech", "name": "Applause, please", "emoji": "👏", "file": "sounds/sfx/applause.mp3" },
+    { "group": "Czech", "name": "Works for me", "emoji": "🤷", "file": "sounds/sfx/worksforme.mp3" },
+    { "group": "Czech", "name": "Who broke prod?", "emoji": "🕵️", "file": "sounds/sfx/whobrokeprod.mp3" },
+    { "group": "Czech", "name": "That's the bomb", "emoji": "💥", "file": "sounds/sfx/bomb.mp3" },
+    { "group": "Czech", "name": "Next, please", "emoji": "🎤", "file": "sounds/sfx/next.mp3" },
+
+    { "group": "Jingles", "name": "Fanfare", "emoji": "🎺", "file": "sounds/sfx/fanfare.wav" },
+    { "group": "Jingles", "name": "Level up", "emoji": "⬆️", "file": "sounds/sfx/levelup.wav" },
+    { "group": "Jingles", "name": "Coin", "emoji": "🪙", "file": "sounds/sfx/coin.wav" },
+    { "group": "Jingles", "name": "Game over", "emoji": "🎮", "file": "sounds/sfx/gameover.wav" },
+    { "group": "Jingles", "name": "Sad trombone", "emoji": "😢", "file": "sounds/sfx/trombone.wav" },
+    { "group": "Jingles", "name": "Dun dun duun", "emoji": "😨", "file": "sounds/sfx/dundun.wav" },
+    { "group": "Jingles", "name": "Ba-dum-tss", "emoji": "🥁", "file": "sounds/sfx/rimshot.wav" },
+    { "group": "Jingles", "name": "Drumroll", "emoji": "🪘", "file": "sounds/sfx/drumroll.wav" },
+
+    { "group": "Effects", "name": "Wrong!", "emoji": "❌", "file": "sounds/sfx/buzzer.wav" },
+    { "group": "Effects", "name": "Airhorn", "emoji": "📯", "file": "sounds/sfx/airhorn.wav" },
+    { "group": "Effects", "name": "Siren", "emoji": "🚨", "file": "sounds/sfx/siren.wav" },
+    { "group": "Effects", "name": "Laser", "emoji": "🔫", "file": "sounds/sfx/laser.wav" },
+    { "group": "Effects", "name": "Explosion", "emoji": "💥", "file": "sounds/sfx/explosion.wav" },
+    { "group": "Effects", "name": "Countdown", "emoji": "⏱️", "file": "sounds/sfx/countdown.wav" },
+    { "group": "Effects", "name": "Boing", "emoji": "🦘", "file": "sounds/sfx/boing.wav" },
+    { "group": "Effects", "name": "Crickets", "emoji": "🦗", "file": "sounds/sfx/crickets.wav" }
+  ]
+}
