@@ -1,9 +1,23 @@
+<div align="center">
+
 # 🎛️ Soundboard
 
 **A one-page soundboard for meetups, hackathons and community events.**
 Background loops, announcer voice lines and game-show jingles: one tap each, on any laptop or tablet.
+No build step, no runtime dependencies, all sounds generated from code.
 
-[**▶ Open the live demo**](https://hlavacm.github.io/soundboard/) · No build step · No runtime dependencies · All sounds generated from code
+[![Live demo](https://img.shields.io/badge/live%20demo-brightgreen)](https://hlavacm.github.io/soundboard/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Vanilla JS](https://img.shields.io/badge/vanilla%20JS-F7DF1E?logo=javascript&logoColor=black)](https://github.com/hlavacm/soundboard)
+[![Dependencies: none](https://img.shields.io/badge/dependencies-none-success)](#development)
+[![Hosting: GitHub Pages](https://img.shields.io/badge/hosting-GitHub%20Pages-181717?logo=github&logoColor=white)](#deploying-to-github-pages)
+[![Last commit](https://img.shields.io/github/last-commit/hlavacm/soundboard)](https://github.com/hlavacm/soundboard/commits/main)
+
+[▶ Live demo](https://hlavacm.github.io/soundboard/) · [Features](#features) · [Quick start](#quick-start) · [Adding your own sounds](#adding-your-own-sounds) · [Deploying](#deploying-to-github-pages) · [Development](#development) · [License](#license)
+
+</div>
+
+---
 
 ![Soundboard screenshot](docs/screenshot.png)
 

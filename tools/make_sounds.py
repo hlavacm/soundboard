@@ -360,8 +360,6 @@ VOICES = [
     ('round4', 'Daniel', 'boss', 'Round four. Fight!'),
     ('finish', 'Daniel', 'boss', 'Finish him!'),
     ('fatality', 'Daniel', 'boss', 'Fatality!'),
-    ('segfault', 'Daniel', 'boss', 'Fatality. Segmentation fault.'),
-    ('flawless', 'Daniel', 'boss', 'Flawless deployment!'),
     ('winner', 'Daniel', 'boss', 'Winner!'),
     ('highscore', 'Daniel', 'boss', 'New high score!'),
     ('merge', 'Ralph', 'boss', 'Merge conflict!'),
